@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    transition: all .1s ease-in;
+}
+/* font first*/
+.font-MontserratRegular {
+    font-family: "MontserratRegular";
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+}
+/* font second*/
+.font-MontserratBold {
+    font-family: "MontserratBold";
+    color: #fff;
+    font-size: 21px;
+    line-height: 25px;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #2ea6e2;
+    border: 15px solid #0f5070;
   }
+
+
+.title {
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+    margin-bottom: 70px;
+    margin-top: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.wi {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-weather {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
 }
+
+.list-item {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border: 3px solid #FFFFFF;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.lisbon {
+    width: 50%;
+    background-color: #3399CC;
+}
+
+.paris {
+    width: 25%;
+    background-color: #33CCCC;
+}
+
+.bel {
+    width: 25%;
+    background-color: #996699;
+}
+
+.venice {
+    width: 25%;
+    background-color: #C24747;
+}
+
+.tel {
+    width: 25%;
+    background-color: #E2674A;
+}
+
+.cairn {
+    width: 25%;
+    background-color: #FFCC66;
+}
+
+.new-york {
+    width: 25%;
+    background-color: #99CC99;
+}
+
+.new-d {
+    width: 25%;
+    background-color: #669999;
+}
+
+.san-f {
+    width: 50%;
+    background-color: #CC6699;
+}
+
+.tokyo {
+    width: 25%;
+    background-color: #339966;
+
+}
+
+.sydney {
+    width: 100%;
+    background-color: #666699;
+}
+
+ul:hover li:not(:hover) {
+    opacity: 0.6;
+}
+
