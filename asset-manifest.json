@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dz38-firstAppReact/static/css/main.00449cdf.css",
+    "main.js": "/dz38-firstAppReact/static/js/main.1da7ee1f.js",
+    "static/media/Montserrat-Bold.woff": "/dz38-firstAppReact/static/media/Montserrat-Bold.87be09dc15290961c6f0.woff",
+    "index.html": "/dz38-firstAppReact/index.html",
+    "main.00449cdf.css.map": "/dz38-firstAppReact/static/css/main.00449cdf.css.map",
+    "main.1da7ee1f.js.map": "/dz38-firstAppReact/static/js/main.1da7ee1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00449cdf.css",
+    "static/js/main.1da7ee1f.js"
+  ]
+}
